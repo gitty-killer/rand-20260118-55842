@@ -1,0 +1,13 @@
+{
+  "project_title": "Recruiting Pipeline",
+  "goal": "Track candidate flow and highlight bottlenecks.",
+  "entity_name": "candidate",
+  "amount_label": "days_in_stage",
+  "score_label": "fit_score",
+  "categories": [
+    "engineering",
+    "design",
+    "sales",
+    "ops"
+  ]
+}

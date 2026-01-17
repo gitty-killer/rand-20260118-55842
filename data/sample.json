@@ -1,0 +1,115 @@
+{
+  "items": [
+    {
+      "id": "candidate-01",
+      "name": "candidate_01",
+      "category": "engineering",
+      "amount": 13,
+      "score": 53,
+      "status": "ok"
+    },
+    {
+      "id": "candidate-02",
+      "name": "candidate_02",
+      "category": "design",
+      "amount": 16,
+      "score": 56,
+      "status": "ok"
+    },
+    {
+      "id": "candidate-03",
+      "name": "candidate_03",
+      "category": "sales",
+      "amount": 19,
+      "score": 59,
+      "status": "ok"
+    },
+    {
+      "id": "candidate-04",
+      "name": "candidate_04",
+      "category": "ops",
+      "amount": 22,
+      "score": 62,
+      "status": "needs_review"
+    },
+    {
+      "id": "candidate-05",
+      "name": "candidate_05",
+      "category": "unknown",
+      "amount": 25,
+      "score": 65,
+      "status": "ok"
+    },
+    {
+      "id": "candidate-06",
+      "name": "candidate_06",
+      "category": "design",
+      "amount": 28,
+      "score": 68,
+      "status": "ok"
+    },
+    {
+      "id": "candidate-07",
+      "name": "candidate_07",
+      "category": "sales",
+      "amount": 31,
+      "score": 71,
+      "status": "ok"
+    },
+    {
+      "id": "candidate-08",
+      "name": "candidate_08",
+      "category": "ops",
+      "amount": 34,
+      "score": 74,
+      "status": "needs_review"
+    },
+    {
+      "id": "candidate-09",
+      "name": "candidate_09",
+      "category": "engineering",
+      "amount": 37,
+      "score": 77,
+      "status": "ok"
+    },
+    {
+      "id": "candidate-10",
+      "name": "candidate_10",
+      "category": "design",
+      "amount": 40,
+      "score": 80,
+      "status": "ok"
+    },
+    {
+      "id": "candidate-11",
+      "name": "candidate_11",
+      "category": "sales",
+      "amount": 43,
+      "score": 83,
+      "status": "ok"
+    },
+    {
+      "id": "candidate-12",
+      "name": "candidate_12",
+      "category": "ops",
+      "amount": 46,
+      "score": 86,
+      "status": "needs_review"
+    }
+  ],
+  "rules": {
+    "min_amount": 5,
+    "max_amount": 60,
+    "allowed_statuses": [
+      "ok",
+      "needs_review",
+      "blocked"
+    ]
+  },
+  "expected": {
+    "total_amount": 354,
+    "avg_score": 69.5,
+    "top_item": "candidate-12",
+    "issue_count": 1
+  }
+}
